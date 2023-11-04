@@ -83,8 +83,8 @@ install_base() {
 
 #This function will be called when user installed x-ui out of sercurity
 config_after_install() {
-    echo -e "${yellow}您的账户名将设定为:admin${plain}"
-    echo -e "${yellow}您的账户密码将设定为:admin${plain}"
+    echo -e "${yellow}您的账户名将设定为:sam${plain}"
+    echo -e "${yellow}您的账户密码将设定为:sam${plain}"
     echo -e "${yellow}您的面板访问端口将设定为:80${plain}"
     echo -e "${yellow}确认设定,设定中${plain}"
     /usr/local/x-ui/x-ui setting -username sam -password sam
